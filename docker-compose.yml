@@ -1,10 +1,10 @@
-java7dev:
-    hostname: java7dev
+dev:
+    hostname: devmachine
     #image: eeacms/centos7dev
     #dockerfile: Dockerfile
     build: .
     volumes:
-        - /home/centos/JavaCode:/work
+        - /home/centos/work:/work
     tty: true
     stdin_open: true
     #working_dir: /home/centos
