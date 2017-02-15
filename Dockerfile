@@ -5,7 +5,7 @@ FROM centos:7
 MAINTAINER Søren Roug <soren.roug@eea.europa.eu>
 
 # Install common tools. Maven 3.0.6 is very old, so we also install a newer version
-RUN yum install -y which vim-enhanced zip unzip bzip2 wget \
+RUN yum install -y which vim-enhanced zip unzip bzip2 wget dos2unix \
     git make maven subversion java-devel \
     mariadb mysql-connector-java \
     postgresql postgresql-jdbc \
