@@ -9,7 +9,7 @@ RUN yum install -y which vim-enhanced zip unzip bzip2 wget dos2unix \
     git make maven subversion java-devel \
     mariadb mysql-connector-java \
     postgresql postgresql-jdbc \
-    python python-ldap MySQL-python libxml2-python \
- && curl --silent --output /opt/maven-3.3.9-bin.tar.gz http://ftp.download-by.net/apache/maven/maven-3/3.5.0/binaries/apache-maven-3.5.0-bin.tar.gz \
- && tar -xz --directory=/opt --file=/opt/maven-3.3.9-bin.tar.gz
+    python python-ldap MySQL-python libxml2-python libxslt-python \
+ && curl --silent --output /opt/maven-3.5.0-bin.tar.gz http://ftp.download-by.net/apache/maven/maven-3/3.5.0/binaries/apache-maven-3.5.0-bin.tar.gz \
+ && tar -xz --directory=/opt --file=/opt/maven-3.5.0-bin.tar.gz
 
