@@ -6,16 +6,19 @@ This is a CentOS 7 image with the following additional tools installed:
 - java-devel
 - make
 - mariadb client
-- maven (3.0.6 & 3.3.9 in /opt/apache-maven-3.3.9/bin)
+- maven (3.0.5 & 3.5.0 in /opt/apache-maven-3.5.0/bin)
 - mysql-connector-java
-- MySQL-python
-- postgresql-jdbc
 - python
 - python-ldap
+- MySQL-python
+- libxml2-python
+- libxslt-python
+- postgresql-jdbc
 - subversion
 - unzip
 - vim-enhanced
 - which
+- dos2unix
 
 You use this image by mapping your work environment on your PC to a directory in the container.
 
