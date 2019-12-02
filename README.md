@@ -6,7 +6,7 @@ This is a CentOS 7 image with the following additional tools installed:
 - java-devel
 - make
 - mariadb client
-- maven (3.0.5 & 3.5.0 in /opt/apache-maven-3.5.0/bin)
+- maven (3.0.5 & 3.6.1 in /opt/apache-maven-3.6.1/bin)
 - mysql-connector-java
 - python
 - python-ldap
@@ -17,6 +17,7 @@ This is a CentOS 7 image with the following additional tools installed:
 - subversion
 - unzip
 - vim-enhanced
+- nano editor
 - which
 - dos2unix
 
