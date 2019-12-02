@@ -41,6 +41,8 @@ Built automatically at https://hub.docker.com/r/eeacms/centos7dev/ when a change
 pushed to GitHub. To ensure that you always have an immutable build for produuction
 you create a new tag in GitHub.
 
+    $ git ci -a
+    $ git push      # Will create 'latest'
     $ version=1.0
     $ git tag -a $version -m "Release $version"
     $ git push origin $version
