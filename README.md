@@ -6,7 +6,7 @@ This is a CentOS 7 image with the following additional tools installed:
 - java-devel
 - make
 - mariadb client
-- maven (3.0.5 & 3.6.1 in /opt/apache-maven-3.6.1/bin)
+- maven (3.0.5 & 3.9.1 in /opt/apache-maven-3.9.1/bin)
 - mysql-connector-java
 - python
 - python-ldap
@@ -38,12 +38,12 @@ Build instructions
 ------------------
 
 Built automatically at https://hub.docker.com/r/eeacms/centos7dev/ when a change is
-pushed to GitHub. To ensure that you always have an immutable build for produuction
+pushed to GitHub. To ensure that you always have an immutable build for production
 you create a new tag in GitHub.
 
     $ git ci -a
     $ git push      # Will create 'latest'
-    $ version=1.0
+    $ version=2.2.5
     $ git tag -a $version -m "Release $version"
     $ git push origin $version
 
