@@ -20,6 +20,8 @@ This is a CentOS 7 image with the following additional tools installed:
 - nano editor
 - which
 - dos2unix
+- openssh and rsync
+- elinks (text-based webbrowser)
 
 You use this image by mapping your work environment on your PC to a directory in the container.
 
@@ -43,7 +45,7 @@ you create a new tag in GitHub.
 
     $ git ci -a
     $ git push      # Will create 'latest'
-    $ version=2.2.5
+    $ version=2.2.6
     $ git tag -a $version -m "Release $version"
     $ git push origin $version
 
