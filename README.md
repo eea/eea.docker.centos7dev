@@ -2,25 +2,27 @@
 
 This is a Alma Linux 9 image with the following additional tools installed:
 - bzip2
+- dos2unix
 - java-devel
+- lynx (text-based webbrowser)
 - make
+- maria-connector-java
 - mariadb client
 - maven (3.0.5 & 3.9.1 in /opt/apache-maven-3.9.1/bin)
-- maria-connector-java
+- nano editor
+- netcat
+- openssh and rsync
+- postgresql-jdbc
 - python
 - python3-ldap
-- python3-PyMySQL
 - python3-libxml2
 - python3-lxml
-- postgresql-jdbc
+- python3-PyMySQL
 - subversion
+- telnet
 - unzip
 - vim-enhanced
-- nano editor
 - which
-- dos2unix
-- openssh and rsync
-- lynx (text-based webbrowser)
 
 It used to be CentOS 7, but the project has terminated. Alma is binary compatible.
 
