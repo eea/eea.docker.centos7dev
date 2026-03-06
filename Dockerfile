@@ -1,7 +1,7 @@
 #
 # A platform for Java and Python development
 #
-FROM almalinux:9.4
+FROM almalinux:9.7
 MAINTAINER Søren Roug <soren.roug@eea.europa.eu>
 
 # Install common tools.
